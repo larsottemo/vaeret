@@ -1,0 +1,1 @@
+# Ingen eksterne pakker nødvendig – bruker kun standardbiblioteket (urllib + json)
