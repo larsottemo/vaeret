@@ -1,0 +1,37 @@
+name: Oppdater værdata for Svolvær
+
+on:
+  schedule:
+    # Kjører hver 3. time (UTC). Justér etter behov.
+    - cron: "0 */3 * * *"
+  workflow_dispatch:  # Manuell kjøring fra GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sett opp Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Kjør vær-script
+        run: python weather.py
+
+      - name: Commit og push hvis endringer
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md weather.json
+          if git diff --staged --quiet; then
+            echo "Ingen endringer – hopper over commit"
+          else
+            git commit -m "Automatisk oppdatering av værdata for Svolvær $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
