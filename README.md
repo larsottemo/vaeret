@@ -9,13 +9,14 @@ Automatisk oppdatert værdata for **Svolvær** (Lofoten) via GitHub Actions + [O
 |--------|-------|
 | 🌧 **Nedbør siste to døgn** | 0.0 mm (2026-10-09 + 2026-10-10) |
 | 💨 **Vindstyrke i går** | maks 24.8 m/s · snitt 20.3 m/s |
-| 🌡 **Dagens temperatur** | 3.8 °C |
-| 📉 **Lufttrykk for 4 dager siden** | 1003.7 hPa |
-| 📈 **Lufttrykk i dag** | 1015.3 hPa |
+| 🌡 **Dagens temperatur** | 4.5 °C |
+| 📉 **Lufttrykk for 4 dager siden** | 1007.2 hPa |
+| 📈 **Lufttrykk i dag** | 1015.9 hPa |
 
-*Sist oppdatert: 2026-10-11 11:21 (Europe/Oslo)*  
+*Sist oppdatert: 2026-10-11 18:51 (Europe/Oslo)*  
 *Data: [Open-Meteo](https://open-meteo.com) · Koordinater: 68.2342, 14.5683*
 <!-- WEATHER-END -->
+
 
 
 
