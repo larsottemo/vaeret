@@ -2,14 +2,14 @@
   "location": "Svolvær",
   "latitude": 68.2342,
   "longitude": 14.5683,
-  "updated": "2026-10-29T12:51:12+01:00",
-  "updated_local": "2026-10-29 12:51",
+  "updated": "2026-10-29T18:39:42+01:00",
+  "updated_local": "2026-10-29 18:39",
   "precipitation_last_2_days_mm": 12.4,
   "precipitation_period": "2026-10-27 + 2026-10-28",
   "wind_yesterday_max_ms": 49.3,
   "wind_yesterday_mean_ms": 28.6,
-  "temperature_now_c": 8.6,
-  "pressure_4_days_ago_hpa": 995.4,
-  "pressure_now_hpa": 999.8,
-  "wind_now_ms": 40.0
+  "temperature_now_c": 8.4,
+  "pressure_4_days_ago_hpa": 993.2,
+  "pressure_now_hpa": 1003.5,
+  "wind_now_ms": 20.2
 }
